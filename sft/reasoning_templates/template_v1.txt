@@ -1,0 +1,14 @@
+<think>
+The current position is: {fen}.
+The next player is {turn_color}.
+
+Let's analyze {turn_color}'s possible next moves:
+{candidate_analysis}
+
+Based on the above analysis, the best move is {best_move}, with a {best_win_rate}% win rate.
+Choosing this move, the possible continuation is:
+{best_pv}
+</think>
+<answer>
+\boxed{{{best_move}}}
+</answer>

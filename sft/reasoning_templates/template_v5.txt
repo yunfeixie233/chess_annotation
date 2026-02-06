@@ -1,0 +1,14 @@
+<think>
+FEN: {fen}
+Side to move: {turn_color}
+
+Analyzing the position, here are the main candidate moves:
+{candidate_analysis}
+
+Taking everything into account, the best continuation is {best_move}, offering a {best_win_rate}% win rate.
+The game might proceed as follows:
+{best_pv}
+</think>
+<answer>
+\boxed{{{best_move}}}
+</answer>

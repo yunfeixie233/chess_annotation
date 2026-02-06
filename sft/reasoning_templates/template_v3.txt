@@ -1,0 +1,14 @@
+<think>
+Looking at this position: {fen}
+It is {turn_color}'s turn to move.
+
+What are the key options here?
+{candidate_analysis}
+
+The conclusion is clear: {best_move} is the optimal move, giving {turn_color} a {best_win_rate}% chance of winning.
+Here is the expected continuation:
+{best_pv}
+</think>
+<answer>
+\boxed{{{best_move}}}
+</answer>

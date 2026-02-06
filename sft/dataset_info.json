@@ -1,0 +1,57 @@
+{
+  "lichess_chess_sft": {
+    "file_name": "data/lichess_eval_llamafactory.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "lichess_chess_sft_with_system": {
+    "file_name": "data/lichess_eval_llamafactory.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "lichess_prov1_resv1": {
+    "file_name": "data/lichess_eval_llamafactory_prov1_resv1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "lichess_prov1_resv2": {
+    "file_name": "data/lichess_eval_llamafactory_prov1_resv2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "lichess_prov2_resv1": {
+    "file_name": "data/lichess_eval_llamafactory_prov2_resv1.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "lichess_prov2_resv2": {
+    "file_name": "data/lichess_eval_llamafactory_prov2_resv2.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

@@ -5,3 +5,5 @@ __pycache__/
 .ipynb_checkpoints/
 **/lichess_db_eval.jsonl.zst
 .DS_Store
+data/
+**data/

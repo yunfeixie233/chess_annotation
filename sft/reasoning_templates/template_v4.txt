@@ -1,0 +1,13 @@
+<think>
+Given the position {fen}, {turn_color} is to play.
+
+Let me evaluate the critical continuations:
+{candidate_analysis}
+
+My recommendation is {best_move}. This move yields a {best_win_rate}% win probability for {turn_color}.
+The likely follow-up is:
+{best_pv}
+</think>
+<answer>
+\boxed{{{best_move}}}
+</answer>

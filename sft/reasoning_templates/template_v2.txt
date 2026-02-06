@@ -1,0 +1,14 @@
+<think>
+Position (FEN): {fen}
+To move: {turn_color}
+
+Examining the candidate moves for {turn_color}:
+{candidate_analysis}
+
+After considering all options, {best_move} stands out as the strongest choice with a {best_win_rate}% win rate.
+The main line continues:
+{best_pv}
+</think>
+<answer>
+\boxed{{{best_move}}}
+</answer>

@@ -1,0 +1,13 @@
+<think>
+In this position ({fen}), {turn_color} must find the best plan.
+
+Considering the available options:
+{candidate_analysis}
+
+The strongest move here is {best_move}, which provides {turn_color} with a {best_win_rate}% winning chance.
+A natural sequence would be:
+{best_pv}
+</think>
+<answer>
+\boxed{{{best_move}}}
+</answer>
